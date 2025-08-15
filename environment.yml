@@ -1,0 +1,11 @@
+name: xeus-lite
+channels:
+  - https://repo.prefix.dev/emscripten-forge-dev
+  - https://repo.prefix.dev/conda-forge
+dependencies:
+  - xeus-python
+  - ipywidgets
+  - numpy
+  - ipecharts
+  - xeus-r >= 0.7.0
+  - r-ggplot2
