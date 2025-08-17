@@ -3,3 +3,13 @@ for = "/*"
   [headers.values]
     Cross-Origin-Opener-Policy = "same-origin"
     Cross-Origin-Embedder-Policy = "require-corp"
+
+    [build]
+  publish = "dist"
+  command = "bash ./deploy.sh"
+
+[[redirects]]
+  from = "/*"
+  to = "https://niss2.nishansubedi.com.np/:splat"
+  status = 301
+  force = true
