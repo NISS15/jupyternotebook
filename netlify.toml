@@ -10,6 +10,6 @@ for = "/*"
 
 [[redirects]]
   from = "/*"
-  to = "https://niss1.nishansubedi.com.np/:splat"
+  to = "https://jupyter.nishansubedi.com.np/:splat"
   status = 301
   force = true
