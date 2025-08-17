@@ -9,7 +9,7 @@ for = "/*"
   command = "bash ./deploy.sh"
 
 [[redirects]]
-  from = "/*"
+  from = "https://nissjupyter.netlify.app/*"
   to = "https://jupyter.nishansubedi.com.np/:splat"
   status = 301
   force = true
